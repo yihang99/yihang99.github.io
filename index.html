@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yihang Hu</title>
+    <meta name="description" content="Personal academic homepage of Yihang Hu.">
+    <meta property="og:title" content="Yihang Hu">
+    <meta property="og:description" content="Personal academic homepage of Yihang Hu.">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:image" content="assets/avatar.jpg"> -->
+    <!-- <link rel="icon" href="assets/avatar.jpg"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">Yihang&nbsp;Hu</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#research">Research</a>
+          <!-- <a href="#news">News</a> -->
+          <a href="#publications">Publications</a>
+          <!-- <a href="#contact">Contact</a> -->
+          <button class="theme-toggle" type="button" aria-label="Toggle theme">◐</button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="site-main">
+      <section class="hero">
+        <div class="hero-copy">
+          <!-- <p class="overline">IIIS · Tsinghua University</p> -->
+          <h1>Yihang Hu</h1>
+          <p class="intro todo">
+            I am a PhD student in the Institute for Interdisciplinary Information Sciences (IIIS) at Tsinghua University, advised by Prof. Yang Gao. 
+            I received my B.S. degree in Computer Science from IIIS, Tsinghua University in 2021.
+          </p>
+          <div class="link-row">
+            <a href="https://scholar.google.com/citations?user=slFtxbMAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://github.com/yihang99" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://openreview.net/profile?id=~Yihang_Hu1" target="_blank" rel="noopener">OpenReview</a>
+            <!-- <a class="muted-link" href="#contact">Email / CV 待补充</a> -->
+          </div>
+        </div>
+        <div class="portrait-card">
+          <img src="assets/hyh.png" alt="Yihang Hu portrait">
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section-title">
+          <h2>Research</h2>
+        </div>
+        <p class="research-text">
+          My current research focuses on embodied intelligence, aiming to enable robots to perform generalizable manipulation tasks in the real world. 
+          I am especially interested in transferring human's learning paradigm to embodied human-like robots, to achieve efficient skill acquisition and generalization in various real-world scenarios. 
+        </p>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="section-title">
+          <h2>Publications</h2>
+        </div>
+        <div class="publication-list">
+          <article class="publication">
+            <a class="thumb" href="https://openhlm-project.github.io/" target="_blank" rel="noopener" aria-label="OpenHLM project page">
+              <img src="https://openhlm-project.github.io/openhlm/image/teaser.png" alt="OpenHLM teaser">
+            </a>
+            <div class="pub-body">
+              <h3><a href="https://openhlm-project.github.io/" target="_blank" rel="noopener">OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation</a></h3>
+              <p class="authors">Yingdong Hu<sup>*</sup>, Haodong Zhu<sup>*</sup>, Boyuan Zheng<sup>*</sup>, <strong>Yihang Hu<sup>*</sup></strong>, Tong Zhang<sup>*</sup>, Zunhao Chen, Junming Zhao, Ruiqian Nai, Yang Gao</p>
+              <p class="venue">arXiv preprint, 2026</p>
+              <p class="pub-focus"><span>Focus:</span> Develops a whole-body humanoid loco-manipulation recipe that maps language and visual observations into coordinated full-body actions. The work emphasizes long-horizon real-world tasks where locomotion, manipulation, and perception must be handled together rather than as separate skills.</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="thumb" href="https://adap-robotics.github.io/" target="_blank" rel="noopener" aria-label="Prior Reinforce project page">
+              <img src="https://adap-robotics.github.io/static/materials/PR.png" alt="PR teaser">
+            </a>
+            <div class="pub-body">
+              <h3><a href="https://adap-robotics.github.io/" target="_blank" rel="noopener">Prior Reinforce: Goal-Conditioned Dynamic Manipulation with Limited Trials</a></h3>
+              <p class="authors"><strong>Yihang Hu<sup>*</sup></strong>, Pingyue Sheng<sup>*</sup>, Yuyang Liu, Shengjie Wang, Yang Gao</p>
+              <p class="venue">IROS, 2026</p>
+              <p class="pub-focus"><span>Focus:</span> Proposes a goal-conditioned framework that learns a motion prior from limited demonstrations and refines behavior through feedback-driven optimization. The method targets dynamic manipulation with few real-world trials, making reinforcement learning more practical under scarce interaction data.</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="thumb" href="https://humanoid-manipulation-interface.github.io/" target="_blank" rel="noopener" aria-label="HuMI project page">
+              <img src="https://humanoid-manipulation-interface.github.io/teaser.png" alt="HuMI teaser">
+            </a>
+            <div class="pub-body">
+              <h3><a href="https://humanoid-manipulation-interface.github.io/" target="_blank" rel="noopener">Humanoid Manipulation Interface: Humanoid Whole-Body Manipulation from Robot-Free Demonstrations</a></h3>
+              <p class="authors">Ruiqian Nai<sup>*</sup>, Boyuan Zheng<sup>*</sup>, Junming Zhao<sup>*</sup>, Haodong Zhu, Sicong Dai, Zunhao Chen, <strong>Yihang Hu</strong>, Yingdong Hu, Tong Zhang, Chuan Wen, Yang Gao</p>
+              <p class="venue">arXiv preprint, 2026</p>
+              <p class="pub-focus"><span>Focus:</span> Introduces a portable robot-free interface for collecting rich whole-body human demonstrations and translating them into feasible humanoid skills. The system reduces the dependence on physical robot teleoperation, making it easier to gather diverse demonstrations for whole-body manipulation.</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="thumb" href="https://timerewarder.github.io/" target="_blank" rel="noopener" aria-label="TimeRewarder project page">
+              <img src="https://timerewarder.github.io/img/concept.jpg" alt="TimeRewarder concept figure">
+            </a>
+            <div class="pub-body">
+              <h3><a href="https://timerewarder.github.io/" target="_blank" rel="noopener">TimeRewarder: Learning Dense Reward from Passive Videos via Frame-wise Temporal Distance</a></h3>
+              <p class="authors">Yuyang Liu<sup>*</sup>, Chuan Wen<sup>*</sup>, <strong>Yihang Hu</strong>, Dinesh Jayaraman, Yang Gao</p>
+              <p class="venue">ICML, 2026</p>
+              <p class="pub-focus"><span>Focus:</span> Learns dense reward signals from passive videos by estimating frame-wise temporal progress toward task completion. By turning ordinary videos into reward supervision, the method reduces reliance on hand-designed rewards and supports more scalable robot learning.</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="thumb" href="https://jialeihuang.github.io/tactileVLA.github.io/" target="_blank" rel="noopener" aria-label="Tactile-VLA project page">
+              <img src="https://jialeihuang.github.io/tactileVLA.github.io/assets/figures/teaserfigure-2.png" alt="Tactile-VLA teaser">
+            </a>
+            <div class="pub-body">
+              <h3><a href="https://jialeihuang.github.io/tactileVLA.github.io/" target="_blank" rel="noopener">Tactile-VLA: Unlocking Vision-Language-Action Model's Physical Knowledge for Tactile Generalization</a></h3>
+              <p class="authors">Jialei Huang<sup>*</sup>, Shuo Wang<sup>*</sup>, Fanqi Lin, <strong>Yihang Hu</strong>, Chuan Wen, Yang Gao</p>
+              <p class="venue">arXiv preprint, 2025</p>
+              <p class="pub-focus"><span>Focus:</span> Extends vision-language-action models with tactile sensing and hybrid position-force control for contact-rich manipulation. The work shows how physical feedback can improve generalization when visual observations alone are insufficient for fine-grained interaction.</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <a class="thumb" href="https://skil-robotics.github.io/SKIL-robotics/" target="_blank" rel="noopener" aria-label="SKIL project page">
+              <img src="https://skil-robotics.github.io/SKIL-robotics/static/images/teaser.png" alt="SKIL teaser">
+            </a>
+            <div class="pub-body">
+              <h3><a href="https://skil-robotics.github.io/SKIL-robotics/" target="_blank" rel="noopener">SKIL: Semantic Keypoint Imitation Learning for Generalizable Data-efficient Manipulation</a></h3>
+              <p class="authors">Shengjie Wang, Jiacheng You, <strong>Yihang Hu</strong>, Jiongye Li, Yang Gao</p>
+              <p class="venue">RSS, 2025</p>
+              <p class="pub-focus"><span>Focus:</span> Uses vision foundation models to extract semantic keypoints as compact task representations for imitation learning. These object-centric representations help reduce sample complexity and improve transfer across objects, scenes, and manipulation setups.</p>
+            </div>
+          </article>
+
+          <!-- <article class="publication">
+            <a class="thumb blank-thumb" href="https://arxiv.org/abs/2105.05123" target="_blank" rel="noopener" aria-label="Targeting Makes Sample Efficiency paper">
+              <span>no thumbnail</span>
+            </a>
+            <div class="pub-body">
+              <h3><a href="https://arxiv.org/abs/2105.05123" target="_blank" rel="noopener">Targeting Makes Sample Efficiency in Auction Design</a></h3>
+              <p class="authors"><strong>Yihang Hu</strong>, Zhiyi Huang, Yiheng Shen, Xiangning Wang</p>
+              <p class="venue">ACM Conference on Economics and Computation, 2021</p>
+              <p class="pub-focus"><span>Focus:</span> Studies how targeted sampling improves sample efficiency in optimal auction design by drawing samples from informative regions of a buyer distribution. The paper gives theoretical guarantees showing when targeted access can reduce the number of samples needed to learn near-optimal mechanisms.</p>
+            </div>
+          </article> -->
+        </div>
+        <!-- <p class="author-note"><sup>*</sup> Equal contribution / core contributors, as indicated by the corresponding paper or project page.</p> -->
+      </section>
+
+      <footer class="footer">
+        <p> Have a nice day~</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
