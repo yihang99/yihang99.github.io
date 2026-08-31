@@ -2,9 +2,8 @@
   const root = document.documentElement;
   const storageKey = "preferred-theme";
   const saved = localStorage.getItem(storageKey);
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-  if (saved === "dark" || (!saved && prefersDark)) {
+  if (saved !== "light") {
     root.dataset.theme = "dark";
   }
 
